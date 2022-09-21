@@ -8,6 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* replaced div and class with 'header' semantic*/
 header {
     padding: 20px;
@@ -39,15 +48,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -67,9 +67,6 @@ p {
     margin-left: 25px;
 }
 
-/* kept content as a class for the 'main' semantic incase someone wanted to add
-new section of material to the 'main' section later on. they could easily reuse
-the style class in custom section containing just the previous material */
 .content {
     width: 75%;
     display: inline-block;
